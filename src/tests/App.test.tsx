@@ -1,6 +1,6 @@
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
 import { describe, it, expect, afterEach } from 'vitest'
-import App from './App'
+import App from '../App'
 
 afterEach(cleanup)
 describe('App', () => {
