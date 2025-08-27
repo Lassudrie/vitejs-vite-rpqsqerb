@@ -2,6 +2,16 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Testing
+
+Run the unit tests with coverage enabled using [Vitest](https://vitest.dev/):
+
+```bash
+npm test
+```
+
+The command generates a coverage report in the `coverage/` directory.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
